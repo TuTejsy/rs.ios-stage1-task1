@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "9653F8FD-7FE6-4F4A-BA75-7B9B8779FB95"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7883A5A3-FC37-427C-82C5-CA7C9585286E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RSSchool_T1Tests/T1ArrayTests.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "-test0"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7883A5A3-FC37-427C-82C5-CA7C9585286E - 2e0f8373e83aa0ac"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[T1ArrayTest test0]"
+                  moduleName = "RSSchool_T1Tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vasil/Documents/Objective-C/RollingScopes/rs.ios-stage1-task1/RSSchool_T1/RSSchool_T1Tests/T1ArrayTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "1368">
+               </Location>
+               <Location
+                  uuid = "7883A5A3-FC37-427C-82C5-CA7C9585286E - 2e0f8373e83aa0ac"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[T1ArrayTest test0]"
+                  moduleName = "RSSchool_T1Tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vasil/Documents/Objective-C/RollingScopes/rs.ios-stage1-task1/RSSchool_T1/RSSchool_T1Tests/T1ArrayTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "1821">
+               </Location>
+               <Location
+                  uuid = "7883A5A3-FC37-427C-82C5-CA7C9585286E - 2e0f8373e83aa0ac"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[T1ArrayTest test0]"
+                  moduleName = "RSSchool_T1Tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vasil/Documents/Objective-C/RollingScopes/rs.ios-stage1-task1/RSSchool_T1/RSSchool_T1Tests/T1ArrayTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "1942">
+               </Location>
+               <Location
+                  uuid = "7883A5A3-FC37-427C-82C5-CA7C9585286E - 2e0f8373e83aa0ac"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[T1ArrayTest test0]"
+                  moduleName = "RSSchool_T1Tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vasil/Documents/Objective-C/RollingScopes/rs.ios-stage1-task1/RSSchool_T1/RSSchool_T1Tests/T1ArrayTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "2069">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "05B765C0-6E4E-4923-A04B-B3F0D0012A6C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RSSchool_T1Tests/T1ArrayTests.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "-test0"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BFA438E7-0704-4ACB-8458-481B29D29A58"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RSSchool_T1Tests/T1ArrayTests.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "-test0"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BFA438E7-0704-4ACB-8458-481B29D29A58 - 2e0f8373e83aa0ac"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[T1ArrayTest test0]"
+                  moduleName = "RSSchool_T1Tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vasil/Documents/Objective-C/RollingScopes/rs.ios-stage1-task1/RSSchool_T1/RSSchool_T1Tests/T1ArrayTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "1757">
+               </Location>
+               <Location
+                  uuid = "BFA438E7-0704-4ACB-8458-481B29D29A58 - 2e0f8373e83aa0ac"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[T1ArrayTest test0]"
+                  moduleName = "RSSchool_T1Tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vasil/Documents/Objective-C/RollingScopes/rs.ios-stage1-task1/RSSchool_T1/RSSchool_T1Tests/T1ArrayTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "1830">
+               </Location>
+               <Location
+                  uuid = "BFA438E7-0704-4ACB-8458-481B29D29A58 - 2e0f8373e83aa0ac"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[T1ArrayTest test0]"
+                  moduleName = "RSSchool_T1Tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vasil/Documents/Objective-C/RollingScopes/rs.ios-stage1-task1/RSSchool_T1/RSSchool_T1Tests/T1ArrayTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "1999">
+               </Location>
+               <Location
+                  uuid = "BFA438E7-0704-4ACB-8458-481B29D29A58 - 2e0f8373e83aa0ac"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[T1ArrayTest test0]"
+                  moduleName = "RSSchool_T1Tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vasil/Documents/Objective-C/RollingScopes/rs.ios-stage1-task1/RSSchool_T1/RSSchool_T1Tests/T1ArrayTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "2509">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "08A85F64-AFF9-4407-98E9-427C9394530B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RSSchool_T1/Exercises/1/T1Array.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "-convertToHappy:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0DF11C6E-2C43-49E6-B949-E34EE50790CD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RSSchool_T1/Exercises/1/T1Array.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "-convertToHappy:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "76A71983-C8C9-4973-BE3A-DD53123C9C04"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RSSchool_T1/Exercises/1/T1Array.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "-convertToHappy:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6F8250CE-786A-498F-877E-623B59806A36"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RSSchool_T1/Exercises/1/T1Array.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "-convertToHappy:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E6FCF337-A674-4A61-9971-92E9F56ACF7E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RSSchool_T1/Exercises/1/T1Array.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "-convertToHappy:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "981460B2-AC62-4975-A968-AD00576D5AE9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RSSchool_T1/Exercises/1/T1Array.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "-convertToHappy:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ACFB0619-5836-4485-8778-A239EB188762"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RSSchool_T1/Exercises/1/T1Array.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "-convertToHappy:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "42054222-BC8F-47B1-B2E3-FD57CDF4E088"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RSSchool_T1/Exercises/1/T1Array.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "-convertToHappy:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
