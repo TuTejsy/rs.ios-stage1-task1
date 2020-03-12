@@ -6,19 +6,20 @@
 - (NSArray <NSString*>*)parseString:(NSString*)string {
     NSArray *result = @[];
     
-    NSMutableArray *openBracketsStack = [[NSMutableArray alloc] init];
     NSMutableArray *openBracketsObjStack = [[NSMutableArray alloc] init];
-    NSMutableArray *openBracketsPositionsStack = [[NSMutableArray alloc] init];
-    
-    NSMutableArray *closeBracketsQueue = [[NSMutableArray alloc] init];
     NSMutableArray *closeBracketsObjQueue = [[NSMutableArray alloc] init];
-    NSMutableArray *closeBracketsPositionsQueue = [[NSMutableArray alloc] init];
     
     NSDictionary *openBracketsPairs = @{
         @"(": @")",
         @"[": @"]",
         @"<": @">",
     };
+    
+    NSMutableDictionary *openBracketsCount = [@{
+        @"(": @(0),
+        @"[": @(0),
+        @"<": @(0),
+    } mutableCopy];
     
     NSDictionary *closeBracketsPairs = @{
         @")": @"(",
@@ -31,15 +32,14 @@
         NSString *ch = [string substringWithRange:NSMakeRange(i, 1)];
         
         if ([openBracketsPairs objectForKey:ch]) {
-            [openBracketsStack addObject:ch];
-            [openBracketsPositionsStack addObject:@(i)];
             [openBracketsObjStack addObject:@{
                 @"bracket": ch,
                 @"position": @(i),
             }];
+            
+            int bracketCount = [[openBracketsCount objectForKey:ch] intValue];
+            [openBracketsCount setObject:@(bracketCount + 1) forKey:ch];
         } else if ([closeBracketsPairs objectForKey:ch]) {
-            [closeBracketsQueue addObject:ch];
-            [closeBracketsPositionsQueue addObject:@(i)];
             [closeBracketsObjQueue addObject:@{
                 @"bracket": ch,
                 @"position": @(i),
@@ -50,42 +50,27 @@
     for (NSDictionary *openBracketObj in openBracketsObjStack) {
         NSString *openBracket = [openBracketObj objectForKey:@"bracket"];
         int openBracketPosition = [[openBracketObj objectForKey:@"position"] intValue] + 1;
+        int bracketCount = [[openBracketsCount objectForKey:openBracket] intValue];
+        
+        int currentBracketCount = bracketCount;
 
         for (NSDictionary *closeBracketObj in closeBracketsObjQueue) {
             if ([[closeBracketObj objectForKey:@"bracket"] isEqualToString: [openBracketsPairs objectForKey: openBracket]]) {
-                int closeBracketPosition = [[closeBracketObj objectForKey:@"position"] intValue];
+                if (currentBracketCount <= 2) {
+                    int closeBracketPosition = [[closeBracketObj objectForKey:@"position"] intValue];
 
-                result = [result arrayByAddingObject: [string substringWithRange:NSMakeRange(openBracketPosition, closeBracketPosition - openBracketPosition)]];
+                    result = [result arrayByAddingObject: [string substringWithRange:NSMakeRange(openBracketPosition, closeBracketPosition - openBracketPosition)]];
 
-                [closeBracketsObjQueue removeObject:closeBracketObj];
-                break;
+                    [closeBracketsObjQueue removeObject:closeBracketObj];
+                    
+                    [openBracketsCount setObject:@(bracketCount - 1) forKey:openBracket];
+                    break;
+                } else {
+                    currentBracketCount--;
+                }
             }
         }
     }
-    
-    closeBracketsQueue = [[[closeBracketsQueue reverseObjectEnumerator] allObjects] mutableCopy];
-    closeBracketsPositionsQueue = [[[closeBracketsPositionsQueue reverseObjectEnumerator] allObjects] mutableCopy];
-    
-//    while(openBracketsStack.count != 0) {
-//        NSString *openBracket = openBracketsStack.lastObject;
-//        int openBracketPosition = [openBracketsPositionsStack.lastObject intValue] + 1;
-//        
-//        int closeBracketIndex = [closeBracketsQueue indexOfObject:[openBracketsPairs objectForKey:openBracket]];
-//        int closeBracketPosition = [closeBracketsPositionsQueue[closeBracketIndex] intValue];
-//        
-//        
-//        if (closeBracketPosition > openBracketPosition) {
-//            result = [result arrayByAddingObject: [string substringWithRange:NSMakeRange(openBracketPosition, closeBracketPosition - openBracketPosition)]];
-//            
-//            [closeBracketsQueue removeObjectAtIndex:closeBracketIndex];
-//            [closeBracketsPositionsQueue removeObjectAtIndex:closeBracketIndex];
-//        }
-//        
-//        [openBracketsStack removeLastObject];
-//        [openBracketsPositionsStack removeLastObject];
-//    }
-//    
-//    result = [[result reverseObjectEnumerator] allObjects];
     
     return result;
 }
